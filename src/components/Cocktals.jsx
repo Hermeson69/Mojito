@@ -12,7 +12,7 @@ const Cocktals = () => {
                 scrub: true,
             }
         })
-        paralaxTimile.from("#c-left-leaf", {x: -100, y:100})
+        paralaxTimile.from("#c-left-leaf", {x: -100, y: 100})
         .from("#c-right-leaf", {x: 100, y: 100})
     })
   return (
