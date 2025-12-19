@@ -61,7 +61,7 @@ body {
 
 @layer components {
     main {
-        @apply w-full overflow-x-hidden;
+        @apply w-full overflow-hidden;
     }
 
     nav {
@@ -89,7 +89,7 @@ body {
     }
 
     #hero {
-        @apply relative z-10 min-h-dvh w-full border border-transparent overflow-y-hidden;
+        @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
             @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
