@@ -1,7 +1,5 @@
 # Mojito GSAP Landing
 
-![Banner](public/readme/hero.png)
-
 Landing page animada para o cocktail bar Mojito, feita com React, Vite e GSAP. Inclui animações de entrada, transições suaves e seções de menu, arte e contato, estilizada com Tailwind CSS.
 
 ## Tecnologias
