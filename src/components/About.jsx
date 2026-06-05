@@ -54,7 +54,7 @@ const About = () => {
             <div className="noisy"/>
             <img
             src="/images/abt1.png"
-            alt="grid-image-1"
+            alt="Cocktail preparation on the bar"
             />
         </div>
 
@@ -62,7 +62,7 @@ const About = () => {
             <div className="noisy"/>
             <img
             src="/images/abt2.png"
-            alt="grid-image-2"
+            alt="Bartender crafting a drink"
             />
         </div>
 
@@ -70,7 +70,7 @@ const About = () => {
             <div className="noisy"/>
             <img
             src="/images/abt5.png"
-            alt="grid-image-5"
+            alt="Fresh cocktail ingredients"
             />
         </div>
     </div>
@@ -80,7 +80,7 @@ const About = () => {
             <div className="noisy"/>
             <img
             src="/images/abt3.png"
-            alt="grid-image-3"
+            alt="Signature drinks served at the bar"
             />
         </div>
 
@@ -88,7 +88,7 @@ const About = () => {
             <div className="noisy"/>
             <img
             src="/images/abt4.png"
-            alt="grid-image-4"
+            alt="Garnished cocktail close-up"
             />
         </div>
     </div>

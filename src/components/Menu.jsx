@@ -46,7 +46,7 @@ const Menu = () => {
     );
   }, [currentIndex]);
   return (
-    <section id="menu" aria-braillelabel="menu-heading">
+    <section id="menu" aria-labelledby="menu-heading">
       <img
         src="/images/slider-left-leaf.png"
         alt="left-leaf"
@@ -69,6 +69,7 @@ const Menu = () => {
 
           return (
             <button
+              type="button"
               key={cocktail.id}
               className={`
 				${isActive ? "text-white border-white" : "text-white/50 border-white/50"}
@@ -84,6 +85,7 @@ const Menu = () => {
       <div className="content">
         <div className="arrows">
           <button
+            type="button"
             className="text-left"
             onClick={() => goToSlide(currentIndex - 1)}
           >
@@ -96,6 +98,7 @@ const Menu = () => {
           </button>
 
           <button
+            type="button"
             className="text-left"
             onClick={() => goToSlide(currentIndex + 1)}
           >

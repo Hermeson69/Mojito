@@ -121,6 +121,7 @@ const ismobile = useMediaQuery({maxWidth: 767});
 		 playsInline
 		 preload="auto"
 		 src="/videos/output.mp4"
+		 aria-label="Mojito cocktail preparation video"
 		/>
 	 </div>
 	 

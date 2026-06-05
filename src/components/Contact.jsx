@@ -44,6 +44,7 @@ const Contact = () => {
 
       <img
         src="/images/footer-drinks.png"
+        alt="Signature cocktail drinks"
         id="f-drinks"
       />
 
@@ -79,7 +80,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 aria-label={social.name}
               >
-                <img src={social.icon} />
+                <img src={social.icon} alt={social.name} />
               </a>
             ))}
           </div>
@@ -90,6 +91,7 @@ const Contact = () => {
             
             <a href="https://github.com/Hermeson69"
             target="_blank"
+            rel="noreferrer"
             >
                 GitHub
             </a>
